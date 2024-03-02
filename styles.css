@@ -1,0 +1,106 @@
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B5DCDF;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Забезпечує повну висоту екрану */
+    display: flex;
+    flex-direction: column;
+  }
+  
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFF9FF; 
+    margin: 10px;
+    border: 2px solid #000000; 
+    border-radius: 10px; 
+    color: #fff; 
+    padding: 10px;
+    font-family: 'Montserrat';
+  }
+  
+.upper-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+  .lower-header  {
+    width: auto;
+    justify-content: center;
+  }
+  
+  button {
+    margin-right: 10px;
+    background-color: #ab1919; /* Колір фону кнопок, замініть за потреби */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .photo-section, .text-section {
+    flex: 1;
+    text-align: center; 
+  }
+
+  .photo-section{
+    flex: 0 0 15%;
+    margin-top: auto;
+  }
+  
+  .text-section {
+    flex: 0 0 70%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; 
+  }
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+button {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+button:hover {
+    background-color: #555;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #EFF9FF;
+    text-align: center;
+    height: 44px;
+    padding: 10px;
+    margin-top: auto; 
+    border-top: 2px solid #000000; 
+}
+
