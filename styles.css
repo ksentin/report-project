@@ -14,7 +14,7 @@ body {
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
-  }
+}
   
 header {
     display: flex;
@@ -28,7 +28,7 @@ header {
     color: #fff; 
     padding: 10px;
     font-family: 'Montserrat';
-  }
+}
   
 .upper-header{
     display: flex;
@@ -36,39 +36,38 @@ header {
     width: 100%;
 }
 
-  .lower-header  {
+.lower-header  {
     width: auto;
     justify-content: center;
-  }
+}
   
-  button {
+button {
     margin-right: 10px;
-    background-color: #ab1919; 
     color: #fff;
     border: none;
     padding: 8px 12px;
     cursor: pointer;
-  }
+}
 
-  .photo-section, .text-section {
+.photo-section, .text-section {
     flex: 1;
     text-align: center; 
-  }
+}
 
-  .photo-section{
+.photo-section{
     flex: 0 0 15%;
     margin-top: auto;
-  }
+}
   
-  .text-section {
+.text-section {
     flex: 0 0 70%;
-  }
+}
   
-  img {
+img {
     max-width: 100%;
     height: auto;
     max-height: 100px; 
-  }
+}
 
 p {
     line-height: 1.6;
@@ -83,6 +82,11 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Montserrat';
+}
+
+.pressed {
+    background-color: #555;
+    color: #EFF9FF;
 }
 
 button:hover {
@@ -163,7 +167,7 @@ footer {
     font-size: 12px;
 }
 
-.lab-content .title{
+.title{
     font-weight: bold;
     font-size: 24px;
 }
