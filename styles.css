@@ -160,6 +160,10 @@ footer {
     overflow: auto; 
 }
 
+#main-lab3 {
+    height: 500px;
+}
+
 .lab-content {
     font-family: 'Montserrat';
     text-align: left;
