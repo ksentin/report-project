@@ -228,6 +228,8 @@ footer {
 #photo-сontent5{
     display: flex;
     flex-direction: row;
+    width: 700px;
+    background-color: #dfb5c9;
 }
 
 #photo-сontent5 img{
